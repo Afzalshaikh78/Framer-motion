@@ -1,12 +1,14 @@
-import { h1 } from "motion/react-client";
 import React from "react";
-import {motion} from "framer-motion";
+import BouncingLoader from './components/BouncingLoader';
 function App() {
   return (
-    <motion.div className="box" animate={{ scale:[1,2,2,3,4,3,2,1] }} transition={{ duration: 10 }}>
+  <div>
+    <BouncingLoader />
 
-    </motion.div>
+  </div>
+
   )
+  
 
 }
 
