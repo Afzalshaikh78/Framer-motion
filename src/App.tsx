@@ -5,9 +5,10 @@ import { motion } from "framer-motion";
 import AnimatedCard from "./components/AnimatedCard";
 import AnimatedGallery from "./components/AnimatedGallery";
 import Draggable from "./components/Draggable";
+import BouncingBall from "./components/BouncingBall";
 function App() {
   return (
-  <div>
+  <div className="flex flex-col items-center justify-center h-screen"> 
       {/* <BouncingLoader /> */}
       {/* <Gestures /> */}
       
@@ -17,7 +18,8 @@ function App() {
       {/* <AnimatedCard /> */}
       {/* <AnimatedGallery /> */}
       
-      <Draggable/>
+      {/* <Draggable/> */}
+      <BouncingBall/>
   </div>
 
   )
