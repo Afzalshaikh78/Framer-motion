@@ -4,6 +4,7 @@ import Gestures from "./components/Gestures";
 import { motion } from "framer-motion";
 import AnimatedCard from "./components/AnimatedCard";
 import AnimatedGallery from "./components/AnimatedGallery";
+import Draggable from "./components/Draggable";
 function App() {
   return (
   <div>
@@ -14,7 +15,9 @@ function App() {
 
       </motion.div> */}
       {/* <AnimatedCard /> */}
-          <AnimatedGallery />
+      {/* <AnimatedGallery /> */}
+      
+      <Draggable/>
   </div>
 
   )
