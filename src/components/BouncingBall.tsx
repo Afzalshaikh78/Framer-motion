@@ -7,7 +7,7 @@ const BouncingBall = () => {
       className="w-17 h-17 bg-yellow-500 rounded-full"
       animate={{ y: [0, -200, 0] }}
       transition={{
-        duration: 1,
+        duration: 5,
         ease: "easeInOut",
         repeat: Infinity,
         repeatType: "loop",
