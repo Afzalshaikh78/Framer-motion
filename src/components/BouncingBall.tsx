@@ -14,10 +14,16 @@ const BouncingBall = () => {
 
       }}
     >
+      <div className="w-full h-full flex items-center justify-center">
+        <span className="text-white text-2xl font-bold">Bounce</span>
+      
+      </div>
 
 
 
     </motion.div>
+
+    
   );
 };
 
