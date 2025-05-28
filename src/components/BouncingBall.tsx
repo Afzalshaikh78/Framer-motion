@@ -24,7 +24,7 @@ const BouncingBall = () => {
       
       
       <motion.div
-      className="w-17 h-17 bg-yellow-500 mt-2 rounded-full"
+      className="w-17 h-17 bg-yellow-500 mt-3 rounded-full"
       animate={{ y: [0, -200, 0] }}
       transition={{
         duration: 1,
